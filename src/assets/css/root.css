@@ -1,0 +1,153 @@
+:root {
+
+    /* font-size */
+    --font-size-xsm: 11px;
+    --font-size-sm: 16px;
+    --font-size-md: 15px;
+    --font-size-lg: 26px;
+    --font-size-xl: 25px;
+    --font-size-xxl: 24px;
+    --font-size-2xl: 26px;
+
+
+    /* line-height */
+    --line-height-xsm: 14px;
+    --line-height-sm: 16px;
+    --line-height-xmd: 21px;
+    --line-height-md: 23.31px;
+    --line-height-xlg: 23px;
+    --line-height-lg: 28px;
+    --line-height-xl: 33px;
+    --line-height-xxl: 35px;
+    --line-height-2xl: 34px;
+    --line-height-3xl: 35px;
+
+    /* color */
+    --yellow: #FCE500;
+    --box-baground: #0B0B0B;
+    --off-white: #F2F2F3;
+    --footer-bg: #0F0F0F;
+    --gray: #B7B7B7;
+}
+
+.text_gray {
+    color: var(--gray);
+}
+
+.footer_baground {
+    background: var(--footer-bg);
+}
+
+.text_yellow {
+    color: var(--yellow);
+}
+
+.text_off_white {
+    color: var(--off-white);
+}
+
+/* font-size */
+
+.font_size_xsm {
+    font-size: var(--font-size-xsm);
+}
+
+.font_size_sm {
+    font-size: var(--font-size-sm);
+}
+
+.font_size_md {
+    font-size: var(--font-size-md);
+}
+
+.font_size_lg {
+    font-size: var(--font-size-lg);
+}
+
+.font_size_xl {
+    font-size: var(--font-size-xl);
+}
+
+.font_size_xxl {
+    font-size: var(--font-size-xxl);
+}
+
+.font_size_2xl {
+    font-size: var(--font-size-2xl);
+}
+
+/* line-height */
+
+.line_height_xsm {
+    line-height: var(--line-height-xsm);
+}
+
+.line_height_sm {
+    line-height: var(--line-height-sm);
+}
+
+.line_height_xmd {
+    line-height: var(--line-height-xmd);
+}
+
+.line_height_md {
+    line-height: var(--line-height-md);
+}
+
+.line_height_xlg {
+    line-height: var(--line-height-xlg);
+}
+
+.line_height_lg {
+    line-height: var(--line-height-lg);
+}
+
+.line_height_xl {
+    line-height: var(--line-height-xl);
+}
+
+.line_height_xxl {
+    line-height: var(--line-height-xxl);
+}
+
+.line_height_2xl {
+    line-height: var(--line-height-2xl);
+}
+
+.line_height_3xl {
+    line-height: var(--line-height-3xl);
+}
+
+@media (min-width:768px) {
+    :root {
+
+        /* font-size */
+        --font-size-xsm: 14px;
+        --font-size-sm: 16px;
+        --font-size-md: 18px;
+        --font-size-lg: 26px;
+        --font-size-xl: 30px;
+        --font-size-xxl: 45px;
+        --font-size-2xl: 47px;
+
+
+        /* line-height */
+        --line-height-xsm: 14px;
+        --line-height-sm: 16px;
+        --line-height-xmd: 21px;
+        --line-height-md: 23.31px;
+        --line-height-xlg: 28px;
+        --line-height-lg: 33px;
+        --line-height-xl: 37px;
+        --line-height-xxl: 49.65px;
+        --line-height-2xl: 59.4px;
+        --line-height-3xl: 62.04px;
+
+        /* color */
+        --yellow: #FCE500;
+        --box-baground: #0B0B0B;
+        --off-white: #F2F2F3;
+        --footer-bg: #0F0F0F;
+        --gray: #B7B7B7;
+    }
+}
